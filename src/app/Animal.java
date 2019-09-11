@@ -5,63 +5,63 @@ package app;
  */
 public abstract class Animal {
 
-    private String picture;
-    private String food;
-    private Integer hunger;
-    private String boundaries;
-    private String location;
+    private String foto;
+    private String comida;
+    private Integer hambre;
+    private String limites;
+    private String habitat;
 
-    public String getPicture() {
-        return this.picture;
+    public String getFoto() {
+        return this.foto;
     }
 
-    public void setPicture(String valor) {
-        this.picture = valor;
+    public void setFoto(String valor) {
+        this.foto = valor;
     }
 
-    public String getFood() {
-        return this.food;
+    public String getComida() {
+        return this.comida;
     }
 
-    public void setFood(String valor) {
-        this.food = valor;
+    public void setComida(String valor) {
+        this.comida = valor;
     }
 
-    public Integer getHunger() {
-        return this.hunger;
+    public Integer getHambre() {
+        return this.hambre;
     }
 
-    public void setHunger(Integer valor) {
-        this.hunger = valor;
+    public void setHambre(Integer valor) {
+        this.hambre = valor;
     } 
 
-    public String getBoundaries() {
-        return this.boundaries;
+    public String getLimites() {
+        return this.limites;
     }
 
-    public void setBoundaries(String valor) {
-        this.boundaries = valor;
+    public void setLimites(String valor) {
+        this.limites = valor;
     }
 
-    public String getLocation() {
-        return this.location;
+    public String getHabitat() {
+        return this.habitat;
     }
 
-    public void setLocation(String valor) {
-        this.location = valor;
+    public void setHabitat(String valor) {
+        this.habitat = valor;
     }
 
-    public abstract String makeNoise();
+    public abstract String hacerRuido();
 
-    public void eat() {
-        System.out.println("Eating food");
+    public void comer() {
+        System.out.println("Comiendo Alimento");
     }
 
-    public void sleep() {
+    public void dormir() {
         System.out.println("Z z z z");
     }
 
-    public void roam() {
-        System.out.println("Roaming Normally");
+    public void andar() {
+        System.out.println("Andando normalmente");
     }
 }
