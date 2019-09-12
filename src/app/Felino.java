@@ -5,8 +5,6 @@ package app;
  */
 public abstract class Felino extends Animal {
 
-    public abstract String hacerRuido();
-
     @Override
     public void andar() {
         System.out.println("Roaming Silently");
