@@ -7,6 +7,6 @@ public abstract class Felino extends Animal {
 
     @Override
     public void andar() {
-        System.out.println("Roaming Silently");
+        System.out.println("Moviendo silenciosamente");
     }
 }

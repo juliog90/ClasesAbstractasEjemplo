@@ -12,7 +12,7 @@ public class Leon extends Felino {
 
     @Override
     public void comer() {
-        System.out.println("Comiendo un anima lastimado comodamente");
+        System.out.println("Comiendo un animal lastimado comodamente");
     }
     
 }
